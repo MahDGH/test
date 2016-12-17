@@ -12,6 +12,13 @@ int isPrime(int n)
 	}
 	return 1;
 }
+int absVal(int x)
+{
+	if(x> 0)
+		return x;
+	else
+		return -x;
+}
 int main()
 {
 	scanf("%d" , &n);
